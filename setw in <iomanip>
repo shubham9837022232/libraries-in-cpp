@@ -1,0 +1,20 @@
+#include <iostream>
+#include <iomanip>
+using namespace std;
+int main () {
+    // with setw this sets the feild with to be 50 (argument in this case is 50)
+    cout << setw(50);
+    cout << "aaaaaaaaaaaaaaaaaaaaaaaaaa"<<endl;
+    cout << setw(50);
+    cout << "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"<<endl;
+    cout << setw(50);
+    cout << "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"<<endl;
+    cout << setw(50);
+    cout << "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"<<endl;
+    // without setw this print is left aligned
+    cout << "aaaaaaaaaaaaaaaaaaaaaaaaaa"<<endl;
+    cout << "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"<<endl;
+    cout << "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"<<endl;
+    cout << "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"<<endl;
+   return 0;
+}
